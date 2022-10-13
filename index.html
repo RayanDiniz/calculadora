@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="./assets/fontawesome-6.2.0/css/all.css">
+</head>
+<body>
+  <h1>Calculadora</h1>
+  <div class="container">
+    <input disabled id="tela" value="0">
+    <div class="teclas">
+      <button onclick="tcClear()" class="btn operator btnlg" id="ac">AC</button>
+      <button onclick="backSpace()" class="btn" id="b">
+        <i class="fa-solid fa-delete-left"></i>
+      </button>
+      <button onclick="setOperator(this)" class="btn operator" id="divi">/</button><br/>
+      <button onclick="display(this)" class="btn" id="num7">7</button>
+      <button onclick="display(this)" class="btn" id="num8">8</button>
+      <button onclick="display(this)" class="btn" id="num9">9</button>
+      <button onclick="setOperator(this)" class="btn operator" id="multi">*</button><br/>
+      <button onclick="display(this)" class="btn" id="num4">4</button>
+      <button onclick="display(this)" class="btn" id="num5">5</button>
+      <button onclick="display(this)" class="btn" id="num6">6</button>
+      <button onclick="setOperator(this)" class="btn operator" id="menos">-</button><br/>
+      <button onclick="display(this)" class="btn" id="num1">1</button>
+      <button onclick="display(this)" class="btn" id="num2">2</button>
+      <button onclick="display(this)" class="btn" id="num3">3</button>
+      <button onclick="setOperator(this)" class="btn operator" id="mais">+</button></br/>
+      <button onclick="display(this)" class="btn" id="num0">0</button>
+      <button onclick="setDecimal(this, true)" class="btn" id="dec">.</button>
+      <button onclick="calculate(this)" class="btn operator btnlg" id="igual">=</button>
+    </div>
+  </div>
+  <script src="App.js"></script>
+</body>
+</html>
