@@ -1,7 +1,7 @@
 # Calculadora JS
 Aplicativo de calculadora feito com JavaScript, HTML e CSS.
 
-![CalculadoraJS](https://imgur.com/JeOtMGn)
+![CalculadoraJS](https://uploaddeimagens.com.br/imagens/3w3L750)
 
 ## Execução
 Para executar o projeto, basta rodar o "index.html" no navegador.
